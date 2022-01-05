@@ -1,2 +1,1 @@
-# Discussion
-Seek help here.
+<font size=64px><a href="https://github.com/katorlys/Discussions/discussions">Go</a></size>
