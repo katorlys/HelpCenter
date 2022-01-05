@@ -1,1 +1,1 @@
-<font size=64px><a href="https://github.com/katorlys/Discussions/discussions">Go</a></size>
+# <a href="https://github.com/katorlys/Discussions/discussions">Enter Discussions</a>
