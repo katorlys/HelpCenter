@@ -1,0 +1,21 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📌 Information
+        If you want to discuss off-topic content, please go to our [Chat Room](https://katorlys.github.io/contact.html).
+  - type: input
+    attributes:
+      label: Aspect
+      description: |
+        The general aspect of your discussion. Use comma (,) to separate if there are more than one.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Body
+      description: |
+        Start your discussion!
+    validations:
+      required: true
+      

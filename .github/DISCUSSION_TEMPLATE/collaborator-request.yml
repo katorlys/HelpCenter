@@ -2,9 +2,10 @@ body:
   - type: markdown
     attributes:
       value: |
+        ### 📌 Information
         This is for applying for collaborator permission for a repository in Katorly Lab.
         Everyone can apply this, including Insiders.
-        It is suggested that you have contributed to the target repository before.
+        It is suggested that you have contributed to the target repository before applying.
   - type: input
     attributes:
       label: Which repository are you applying for?

@@ -3,7 +3,7 @@ body:
     attributes:
       value: |
         ### ⚠ Warning
-        Please read [Insiders Docs](https://github.com/katorlys/Insiders) before posting a join request.
+        Please read [Insiders Docs](https://github.com/katorlys/Insiders) before posting a request.
   - type: textarea
     attributes:
       label: What are you applying?

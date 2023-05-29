@@ -2,9 +2,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### ❤ Information
+        ### 📌 Information
         We have to inform you that we are doing this extracurricularly, so you may not receive help instantly.
         However, we will reply as soon as possible. Thanks for your understanding!
+  - type: input
+    attributes:
+      label: Aspect
+      description: |
+        The general aspect of your problem. Use comma (,) to separate if there are more than one.
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Details of the problem
