@@ -1,0 +1,70 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚠ Warning
+        If you have encountered any bugs in a project, please report them in the project's issues page, rather than reporting them here.
+        ### Guidelines
+        Be sure to read the [Contributing Guidelines](https://github.com/katorlys/.github/blob/main/.github/CONTRIBUTING.md) and [Code of Conduct](https://github.com/katorlys/.github/blob/main/CODE_OF_CONDUCT.md) before posting a bug.
+        To report a security vulnerability, please review our Security Policy for more details.
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: |
+        Make a clear and concise description of what the bug is. Insert screenshots or recorded videos if neccessary.
+        You may paste compile errors or console errors you've encountered (if there is any). Make sure to copy the entire error.
+        If you are willing to use a paste site, please use something like https://gist.github.com or https://pastebin.com.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Operating system and its version
+      placeholder: "Type 'none' if there isn't any."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Programming language and its version
+      placeholder: "Type 'none' if there isn't any."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Dependencies and their versions
+      placeholder: "Type 'none' if there isn't any."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        Tell us how to reproduce this issue.
+        If applicable, add screenshots to help explain the steps.
+      value: "1. "
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: |
+        Tell us what should happen.
+        If applicable, add screenshots to help explain the steps.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual behavior
+      description: |
+        Tell us what happens instead.
+        If applicable, add screenshots to help explain the steps.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Other
+      description: |
+        Have anything else to add?
+        Let us know if you have any additional feedback!
+    validations:
+      required: false
+      

@@ -1,0 +1,33 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚠ Warning
+        If you want to suggest ideas for a project, please post them in the project's issues page, rather than posting them here.
+        ### Guidelines
+        Be sure to read the [Contributing Guidelines](https://github.com/katorlys/.github/blob/main/.github/CONTRIBUTING.md) and [Code of Conduct](https://github.com/katorlys/.github/blob/main/CODE_OF_CONDUCT.md) before posting a suggestion.
+        To report a security vulnerability, please review our Security Policy for more details.
+  - type: textarea
+    attributes:
+      label: Suggestion
+      description: |
+        Enter your suggestion here. Try to be as thorough as possible.
+        If applicable, add screenshots to help explain your suggestion.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reason
+      description: Tell us why you are suggesting this.
+      placeholder: "I'm suggesting this because..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Other
+      description: |
+        Have anything else to add?
+        Let us know if you have any additional feedback!
+    validations:
+      required: false
+      

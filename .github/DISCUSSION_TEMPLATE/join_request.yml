@@ -1,0 +1,32 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚠ Warning
+        Please read our [Get Involved Page](https://katorlys.github.io/join.html) before posting a join request.
+  - type: input
+    attributes:
+      label: Contact email
+      description: |
+        We may use it to contact you.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What requirements you meet
+      description: |
+        View requirements at: [https://katorlys.github.io/join.html#what](https://katorlys.github.io/join.html#what)
+      value: "- "
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Your thoughts
+      description: |
+        Why are you joining? What are you going to do in Katorly Lab?
+        Share your ideas with us, and we'd love to hear from you!
+      value: |
+        - I'm joining Katorly Lab because 
+        - I'm going to 
+    validations:
+      required: true

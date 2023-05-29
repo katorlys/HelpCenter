@@ -1,0 +1,29 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚠ Warning
+        Please read [Insiders Docs](https://github.com/katorlys/Insiders) before posting a join request.
+  - type: textarea
+    attributes:
+      label: What are you applying?
+      placeholder: "Write what are you applying, and if it's related to a repository, post its link here."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reasons
+      description: |
+        Why are you applying this?
+      value: |
+        - I'm applying because 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Other
+      description: |
+        Have anything else to add?
+        Let us know if you have any additional feedback!
+    validations:
+      required: false

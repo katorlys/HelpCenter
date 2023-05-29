@@ -1,0 +1,30 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is for applying for collaborator permission for a repository in Katorly Lab.
+        Everyone can apply this, including Insiders.
+        It is suggested that you have contributed to the target repository before.
+  - type: input
+    attributes:
+      label: Which repository are you applying for?
+      description: "Post the target repository link here."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reasons
+      description: |
+        Why are you applying this?
+      value: |
+        - I'm applying because 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Other
+      description: |
+        Have anything else to add?
+        Let us know if you have any additional feedback!
+    validations:
+      required: false

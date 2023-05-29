@@ -1,0 +1,27 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚠ Warning
+        If you want to advice enhancements in a project, please post them in the project's issues page, rather than posting them here.
+        ### Guidelines
+        Be sure to read the [Contributing Guidelines](https://github.com/katorlys/.github/blob/main/.github/CONTRIBUTING.md) and [Code of Conduct](https://github.com/katorlys/.github/blob/main/CODE_OF_CONDUCT.md) before posting an enhancement suggestion.
+        To report a security vulnerability, please review our Security Policy for more details.
+  - type: textarea
+    attributes:
+      label: Description
+      description: |
+        Enter the enhancement you want to suggest here. Try to be as thorough as possible.
+        If applicable, add screenshots to help explain your enhancement idea.
+        And, please tell us why you are suggesting this.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Other
+      description: |
+        Have anything else to add?
+        Let us know if you have any additional feedback!
+    validations:
+      required: false
+      
